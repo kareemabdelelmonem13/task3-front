@@ -1,0 +1,41 @@
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    header {
+        min-height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/head.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .navbar {
+        box-shadow: 0 1px 10px black;
+    }
+    
+    .nav-item {
+        margin: 0 10px;
+    }
+    
+    .nav-link {
+        font-size: 1.2rem;
+    }
+    
+    .nav-link:hover {
+        color: orange;
+        text-decoration: underline;
+    }
+    
+    .km:hover {
+        transform: rotate(-360deg);
+        transition: 0.5s;
+    }
+    
+    .sec4 {
+        background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/signimg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
